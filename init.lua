@@ -1,1 +1,1 @@
-require("tim") -- tim is prob a package
+require("prime") -- prime is a module that publish prime.set
