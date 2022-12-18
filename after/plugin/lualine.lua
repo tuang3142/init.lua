@@ -13,18 +13,18 @@ lualine.setup {
     lualine_x = {},
     lualine_y = {},
     lualine_z = {},
-    lualine_b = {
+    lualine_c = {
       { 'diagnostics', sources = {"nvim_diagnostic"}, symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '} },
       -- 'encoding',
-      'filetype'
+      -- 'filetype'
     },
     lualine_a = {{
       'filename',
       file_status = true, -- displays file status (readonly status, modified status)
-      path = 0 -- 0 = just filename, 1 = relative path, 2 = absolute path
+      path = 1 -- 0 = just filename, 1 = relative path, 2 = absolute path
     }},
     -- lualine_y = {'progress'},
-    lualine_c = {}
+    lualine_b = {}
   },
   inactive_sections = {
     lualine_a = {},

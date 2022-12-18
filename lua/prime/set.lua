@@ -1,5 +1,4 @@
 -- global setting
-vim.opt.guicursor = ""
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -26,19 +25,6 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes" -- for git sign
-vim.opt.isfname:append("@-@") -- ? what is this
-
--- Give more space for displaying messages.
-vim.opt.cmdheight = 1
-
--- Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
--- delays and poor user experience.
-vim.opt.updatetime = 50
-
--- Don't pass messages to |ins-completion-menu|.
-vim.opt.shortmess:append("c")
-
-vim.opt.colorcolumn = "80"
+vim.opt.signcolumn = "yes" -- for git sign make this togglable, make everything togglabl0"
 
 vim.g.mapleader = " "

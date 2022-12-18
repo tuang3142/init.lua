@@ -1,1 +1,1 @@
-require("prime") -- prime is a module that publish prime.set
+require("prime") -- prime is a module, kinda like js module
