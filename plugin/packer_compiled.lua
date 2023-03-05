@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/tuang/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
+  harpoon = {
+    loaded = true,
+    path = "/Users/tuang/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/tuang/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",

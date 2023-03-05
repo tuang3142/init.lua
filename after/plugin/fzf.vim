@@ -24,11 +24,11 @@ let $FZF_DEFAULT_COMMAND = 'ag -g "" --hidden'
     " set winhl=Normal:Floating
     " let opts.row += 1
     " let opts.height -= 2
-    " let opts.col += 2
+    " let opts)))))))).col += 2
     " let opts.width -= 4
     " call nvim_open_win(nvim_create_buf(v:false, v:true), v:true, opts)
     " au BufWipeout <buffer> exe 'bw '.s:buf
-" endfunction
+" endfun))))))ction
 
 " function! s:OpenLazyGit() abort
 "     call OpenTerm('lazygit')
@@ -51,7 +51,7 @@ nnoremap <leader>fc :Files app/controllers/<cr>
 nnoremap <leader>fy :Files app/assets/stylesheets/<cr>
 nnoremap <leader>fj :Files app/assets/javascripts/<cr>
 nnoremap <leader>fs :Files spec/<cr>
-" nnoremap <leader>. :Files %:p:h<cr>
+nnoremap <leader>. :Files %:p:h<cr>
 
 " TODO: search todo, search like telescope
 nnoremap <silent> <leader>p :Files<cr>
