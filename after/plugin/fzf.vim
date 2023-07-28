@@ -48,6 +48,8 @@ nnoremap <leader>fa :Files app/<cr>
 nnoremap <leader>fm :Files app/models/<cr>
 nnoremap <leader>fv :Files app/views/<cr>
 nnoremap <leader>fc :Files app/controllers/<cr>
+nnoremap <leader>fb :Files spec/fabricators/<cr>
+nnoremap <leader>fr :Files spec/requests/<cr>
 nnoremap <leader>fy :Files app/assets/stylesheets/<cr>
 nnoremap <leader>fj :Files app/assets/javascripts/<cr>
 nnoremap <leader>fs :Files spec/<cr>
@@ -58,6 +60,7 @@ nnoremap <silent> <leader>p :Files<cr>
 nnoremap <silent> <leader>i :GFiles<cr>
 nnoremap <silent> <leader>b :Buffers<cr>
 nnoremap <silent> <leader>r :History<cr>
+nnoremap <silent> <leader>l :Line<cr>
 nnoremap <silent> <leader>l :Lines<cr>
 
 " vim:ft=vim

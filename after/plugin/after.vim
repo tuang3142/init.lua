@@ -127,7 +127,8 @@ nmap j gj
 " noremap <silent> <leader>sc :e ~/.config/nvim/init.vim<cr>
 
 " nvim tree
-nnoremap <silent> <cr> :NvimTreeFindFile<cr><c-w>=<cr>
+" nnoremap <silent> <cr> :NvimTreeFindFile<cr><c-w>=<cr>
+nnoremap <silent> <cr> :NvimTreeFindFile<cr>
 nnoremap <silent> <leader>e :NvimTreeToggle<cr>
 " -------
 "  }

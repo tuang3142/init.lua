@@ -11,6 +11,7 @@
 - l: this buffer (fzf line)
 - somemoremap: https://youtu.be/w7i4amO_zaE?t=1538
 - tham khao: prime, chris, minh, tpope (fucking ruby yeah)
+- w/ tmux
 
 # done
 - set up folder stucture
